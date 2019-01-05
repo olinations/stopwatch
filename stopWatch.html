@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vanilla JS Stopwatch - Javascript Stopwatch</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <style>
+    #timerContainer {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 300;
+      width:700px;
+      margin:20px auto;
+      min-height: 60px;
+      border-top:0px;
+    }
+    .timer, .reset {
+      float:left;
+      width: 54%;
+      padding: 20px 0;
+      font-size: 24px;
+      text-align:center;
+      color: #fff;
+      background: #A90000;
+      cursor: pointer
+    }
+    .reset {
+      background: #550000;
+      color: white;
+      width:14.9%;
+      border-left: 1px solid #990000;
+    }
+    .reset:hover {
+      background: #CC0000;
+    }
+    .lighter {
+      background: #CC0000
+    }
+  </style>
+</head>
+<body>
+
+  <div id="timerContainer">
+    <div class="timer" onclick="startTimer()">Start Studying!</div>
+    <div class="startTimer reset" onclick="startTimer()" >
+      <i class="fas fa-play"></i>
+    </div>
+    <div class="pauseTimer reset" onclick="pauseTimer()" >
+      <i class="fas fa-pause"></i>
+    </div>
+    <div class="resetTimer reset" onclick="resetTimer()">Reset</div>
+  </div>
+  <script type="text/javascript" src="stopWatch.js"></script>
+</body>
+</html>

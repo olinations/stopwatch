@@ -13,6 +13,8 @@ https://brainbank.cc/jamie/words/words-in-the-news-december-2018
 
 Will display as :
 
+<img src="https://cdn-images-1.medium.com/max/2000/1*4gn9QT-7LnAXhgFK8f34xQ.png" />
+
 00:00:00:000 or hours:minutes:seconds:milliseconds
 
 Included in the HTML is a link to the Google Font being used as well as Font Awesome, which is used to display the Play and Pause buttons.
